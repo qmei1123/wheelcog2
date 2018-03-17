@@ -9,8 +9,8 @@ function draw() {
     
 
     
-    for (i = 0; i < width; i+=100) {
-        for (j = 0; j < height; j+=100) {
+    for (i = 0; i < width - 80; i+=100) {
+        for (j = 0; j < height - 80; j+=100) {
 //    line(mouseX/50 - 10 + i, mouseY/50 - 10 + j, mouseX/100 + 10 +i, mouseY/60 + 10 + j);
      //       line = map(mouseX, 0 width, i)
     //custome shape
