@@ -16,7 +16,7 @@ function draw() {
     //custome shape
             
     beginShape();
-    fill(255,109,109);
+    fill(255,109,109,80);
     noStroke();
 
     let verticesTwo = map(mouseY, 0, height, 4, 100);
